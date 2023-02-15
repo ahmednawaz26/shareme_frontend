@@ -62,8 +62,6 @@ const UserProfile = () => {
 
   if (!user) return <Spinner message="Loading profile..." />;
 
-  console.log(pins);
-
   return (
     <div className="relative pb-2 h-full justify-center items-center">
       <div className="flex flex-col pb-5">
